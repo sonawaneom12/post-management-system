@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+/* Section */
+.create-post-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+}
+
+/* Title */
+.create-post-section h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Form Card */
+.create-post-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+/* Inputs */
+.create-post-section input,
+.create-post-section textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.create-post-section input:focus,
+.create-post-section textarea:focus {
+  border-color: #4CAF50;
+}
+
+/* Button */
+.create-post-section button {
+  padding: 12px;
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Hover Effect */
+.create-post-section button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
+
+/* Active Click */
+.create-post-section button:active {
+  transform: scale(0.98);
+}
+
+/* Feed Section */
+
+.feed-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.post-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.post-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+.post-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
