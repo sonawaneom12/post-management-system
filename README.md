@@ -41,7 +41,7 @@ A robust and scalable backend system built to handle **post creation, updating, 
 ## ⚙️ Installation & Setup
 
 1. Clone the repository:
-git clone https://github.com/your-username/post-management-api.git
+git clone https://github.com/sonawaneom12/post-management-api.git
 
 2. Navigate to the project folder:
 cd post-management-api
